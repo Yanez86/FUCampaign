@@ -36,9 +36,9 @@ h1 {
 }
 
 p {
-    width: 100%;
-  
-
+        min-width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
 }
 
 .menu {
@@ -72,6 +72,7 @@ li {
     display: flex;
     margin-top: -20px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .first-letter {
