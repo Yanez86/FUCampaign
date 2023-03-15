@@ -37,8 +37,8 @@ h1 {
 
 p {
     min-width: calc(100% - 80px);
-        margin-left: 40px;
-        margin-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .menu {
