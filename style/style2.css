@@ -157,8 +157,7 @@ hr {
 
 .post-footer {
     color: black;
-    width: 120px;
-    padding: 5px;
+    padding: 5px 20px;
     border-style: solid;
     border-color: black;
     background-color: #ebebeb;
@@ -166,6 +165,7 @@ hr {
     margin-bottom: 30px;
     margin-left: 600px;
     position: absolute;
+    
 }
 
 .last {
