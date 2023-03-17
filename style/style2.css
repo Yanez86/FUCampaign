@@ -100,12 +100,10 @@ footer {
 }
 
 .menu {
-    list-style-type: none;
+    display: flex;
     width: 100px;
     justify-content: center;
-    vertical-align: middle;
-    text-align:center;
-    line-height: 100px;
+    align-items: center;
 
 }
 
