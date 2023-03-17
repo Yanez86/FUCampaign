@@ -22,10 +22,11 @@ h1 {
     font-size: 4em;
 }
 
-img{
-    max-height:100%; 
-    max-width:100%;
+img {
+    max-height: 100%;
+    max-width: 100%;
 }
+
 .session-title {
     display: flex;
     background-color: grey;
@@ -33,7 +34,7 @@ img{
     height: 50px;
     background-color: #00a7e1;
     border-style: solid;
-  border-color: black;
+    border-color: black;
     position: relative;
     margin-left: 50px;
     display: flex;
@@ -47,18 +48,19 @@ p {
     margin-left: 40px;
     margin-right: 40px;
 }
+
 nav {
-  display: flex;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-style: solid;
-  background-color: white;
-  justify-content: center;
-  height: 80px;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    background-color: white;
+    justify-content: center;
+    height: 80px;
 }
 
 footer {
@@ -77,20 +79,19 @@ footer {
     justify-content: center;
     padding-top: 10px;
     font-size: 0.7em;
-  }
-.menu {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-  width: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
-.menu:hover{
-  background: orange;
-  color: black;
-  width: 60px;
+
+.menu {
+    list-style-type: none;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu:hover {
+    background: orange;
+    color: black;
+    width: 60px;
 }
 
 .selected {
@@ -134,16 +135,16 @@ hr {
 }
 
 .post-footer {
-  color: black;
-  width: 120px;
-  padding: 5px;
-  border-style: solid;
-  border-color: black;
-  background-color: #ebebeb;
-  margin-top: -70px;
-  margin-bottom: 30px;
-  margin-left: 600px;
-  position: absolute;
+    color: black;
+    width: 120px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: #ebebeb;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-left: 600px;
+    position: absolute;
 }
 
 .last {
