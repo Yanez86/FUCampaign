@@ -31,6 +31,7 @@ main{
 }
 
 header{
+    font-family: 'Climate Crisis', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +41,8 @@ header{
     border-width: 0px;
     border-bottom-width: 3px;
     margin-bottom: 30px;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(162 254 255);
+    background: linear-gradient(180deg, rgb(162 254 255) 10%, rgb(255 165 0) 100%);
 }
 .session-title {
     display: flex;
@@ -78,8 +79,8 @@ nav {
     justify-content: center;
     height: 80px;
     position: sticky;
+    font-size: 1.2em;
 }
-
 footer {
     width: 100%;
     min-height: 150px;
@@ -100,16 +101,17 @@ footer {
 
 .menu {
     display: flex;
-    width: 100px;
+    width: 150px;
     justify-content: center;
     align-items: center;
+    height: 100%;
 
 }
 
 .menu:hover {
     background: #00a7e1;
     color: white;
-    width: 100px;
+    width: 150px;
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
